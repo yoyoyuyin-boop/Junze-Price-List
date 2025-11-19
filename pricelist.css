@@ -1,0 +1,99 @@
+
+.price-list-body-main {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fffef8;
+    flex-direction: column;
+    height: auto;
+    font-size: 18px;
+    color: rgb(52, 52, 52);
+    box-shadow: -5px 6px 5px rgb(188, 188, 188);
+    overflow: scroll;
+    width: 100%;
+}
+
+.price-title-section {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    border-bottom: 2px solid #413010;
+    margin-top: 10%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.price-title-eng {
+    flex: 1;
+    font-size: 60px;
+    margin-top: auto;
+    margin-bottom: 10px;
+    text-align: right;
+    margin-right: 2%;
+    opacity: 0.95;
+ 
+}
+
+.price-title-chinese {
+    flex: 2.5;
+    font-size: 40px;
+    color: #827167;
+    margin-top: auto;
+    margin-bottom: 14px;
+    opacity: 0.95;
+
+}
+
+.price-item-section {
+    flex: 4;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin: 4%;
+    max-height: 100%;
+}
+
+.price-item-price {
+    line-height: 1.36;
+    text-align: right;
+}
+
+
+
+
+@media (min-width: 900px) and (max-width: 1199px) {
+    
+    .price-title-eng {
+        font-size: 40px;
+    }
+    .price-title-chinese {
+        font-size: 25px;
+    }
+  
+}
+
+
+@media (min-width: 701px) and (max-width: 899px) {
+    .price-title-eng {
+        font-size: 30px;
+    }
+    .price-title-chinese {
+        font-size: 20px;
+    }
+  
+}
+
+@media (max-width: 750px) {
+    
+    .price-title-eng {
+        font-size: 30px;
+    }
+    .price-title-chinese {
+        font-size: 20px;
+    }
+    
+    .price-list-body-main {
+        font-size: 11px;
+    }
+  
+}
+
