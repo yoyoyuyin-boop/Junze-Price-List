@@ -1,0 +1,113 @@
+.head-banner-panel {
+    height: 60px;
+    display: flex;
+    background-color: #715822;
+    flex-direction: row;
+    font-size: 8px;
+    color: white;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 300;
+    text-align: center;
+}
+
+.head-banner-panel a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.head-banner-panel a:hover {
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.head-banner-panel a {
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.home-page-section {
+    width:360px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.home-page {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.home-icon {
+    height: 30px;
+    filter: brightness(0) invert(1);
+    opacity: 0.95;
+    width: auto;
+    margin-left: 40px;
+    opacity: 0.95;
+
+}
+
+.business-name1, .business-name2 {
+    font-size: 12px;
+    width: 150px;
+    margin-left: 10px;
+    text-align: right;
+    opacity: 0.95;
+}
+
+.business-name2 {
+    margin-right: 190px;
+    font-size: 14px;
+}
+
+.contact-link-section {
+    flex: 1;
+    opacity: 0.9;
+}
+
+.aboutus-link-section{
+    flex: 1;
+    opacity: 0.9;
+}
+
+.service-link-section {
+    flex: 1;
+    opacity: 0.9;
+}
+
+.treatment-link-section {
+    flex: 1;
+    opacity: 0.9;
+}
+
+@media (max-width: 750px) {
+  
+
+    .business-name1{
+        font-size: 10px;
+    }
+
+    .business-name2{
+        font-size:  12px;
+        margin-right: 100px;
+    }
+   
+    .head-banner-panel a {
+
+        font-size: 10px;
+    }
+
+    .home-page-section{
+         width:260px;
+    }
+  
+  
+}
