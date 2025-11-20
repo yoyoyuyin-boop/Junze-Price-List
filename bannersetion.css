@@ -10,6 +10,7 @@
     justify-content: space-between;
     font-weight: 300;
     text-align: center;
+    box-shadow: -5px 6px 5px rgb(120, 120, 120);
 }
 
 .head-banner-panel a:visited {

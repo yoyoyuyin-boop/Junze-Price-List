@@ -47,15 +47,31 @@
 .price-item-section {
     flex: 4;
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-rows: .6fr 2fr .5fr 1fr 1.5fr 1.5fr;
     margin: 4%;
     max-height: 100%;
 }
 
-.price-item-price {
-    line-height: 1.36;
-    text-align: right;
+.price-item-text-section1, 
+.price-item-text-section2, 
+.price-item-text-section6, 
+.price-item-text-section4,
+.price-item-text-section5
+{
+    display:grid ;
+    grid-template-columns: 2fr 1fr;
+    align-items: end;
 }
+
+.price-item-text-section3{
+    align-items: end;
+    font-size: 25px;
+}
+
+.price-item-price {
+    text-align: end;
+}
+
 
 
 
@@ -94,6 +110,11 @@
     .price-list-body-main {
         font-size: 11px;
     }
+
+    .price-item-text-section3{
+        
+      font-size: 14px;
+}
   
 }
 
