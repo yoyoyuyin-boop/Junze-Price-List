@@ -47,7 +47,7 @@
 .price-item-section {
     flex: 4;
     display: grid;
-    grid-template-rows: .6fr 2fr .5fr 1fr 1.5fr 1.5fr;
+    grid-template-rows: .6fr 2fr 1fr 1.5fr 1.5fr;
     margin: 4%;
     max-height: 100%;
 }
@@ -63,10 +63,6 @@
     align-items: end;
 }
 
-.price-item-text-section3{
-    align-items: end;
-    font-size: 25px;
-}
 
 .price-item-price {
     text-align: end;
